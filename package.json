@@ -1,0 +1,12 @@
+{
+	"name": "tree-view",
+	"version": "1.0.0",
+	"scripts": {
+		"serve": "http-server --push-state -o -c-1 -p 3021 -a localhost",
+		"s": "npm run serve"
+	},
+	"devDependencies": {
+		"http-server": "^0.11.1",
+		"prettier": "^1.18.2"
+	}
+}
