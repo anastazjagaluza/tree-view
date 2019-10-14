@@ -1,14 +1,16 @@
 * Simple API that can return a user-friendly tree view for given data
 * Works very well with JSON
 * Can present even complex, nested data
+* All styling can be easily customized!
 
-<img align="center" src="https://user-images.githubusercontent.com/38051431/66747848-d437d280-ee85-11e9-9f89-d1dcde7372b4.png">
+<img src="https://user-images.githubusercontent.com/38051431/66752638-2979e100-ee92-11e9-8494-e205412a2180.gif">
 
 ## ➤ Table of Contents
 * [➤ Description](#-description)
 * [➤ 0. Installation](#-0-installation)
 * [➤ 1. Set your data](#-1-set-your-data)
 * [➤ 2. Feed the module with data](#-2-feed-the-module-with-data)
+* [➤ 3. Customize styling](#-3-customize-styling)
 * [➤ License](#-license)
 
 ## ➤ Description
@@ -46,6 +48,21 @@ html`
 `}
 
 ```
+## ➤ 3. Customize styling
+The module can be easily customized according to your style needs, just like in the example below:
+<img src="https://user-images.githubusercontent.com/38051431/66751824-3c8bb180-ee90-11e9-8c3a-14945d333042.png">
+In order to implement your own styling, all you need is to define the css variables mentioned in the code below:
+```css
+:host{
+ --tree-view-summary-background-color-open: #e0c7db;
+--tree-view-summary-background-color-close: #f9d9f3;
+--tree-view-summary-border-bottom: 1px solid grey;
+--tree-view-value-background-color: #f9d9f3;
+}
+```
+
+If you decide not to apply any styling, the module will fallback to the default styling:
+<img align="center" src="https://user-images.githubusercontent.com/38051431/66747848-d437d280-ee85-11e9-9f89-d1dcde7372b4.png">
 ## ➤ License
 	
 Licensed under [MIT](https://opensource.org/licenses/MIT).
