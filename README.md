@@ -2,7 +2,7 @@
 * Works very well with JSON
 * Can present even complex, nested data
 
-https://user-images.githubusercontent.com/38051431/66747848-d437d280-ee85-11e9-9f89-d1dcde7372b4.png
+<img src="https://user-images.githubusercontent.com/38051431/66747848-d437d280-ee85-11e9-9f89-d1dcde7372b4.png">
 
 ## ➤ Description
 Tree-view is a simple API allowing to present json data in a user-friendly way. This component uses LitHTML and LitELement. You can both use the tree-view component as a new class importing it from the file, as well as the HTML tag <tree-view>. The component has two properties: data and headline. You can use them to customize the component and to feed it with your own data.
