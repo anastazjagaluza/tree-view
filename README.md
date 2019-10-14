@@ -20,7 +20,7 @@ import "tree-view";
 
 Depending on whether you need to present a small piece of data or your whole database, you start with either fetching the data from the outside source or writing it in the json format. Below you can see, how I arranged the mock-up data, presented in the demo.
 
-```json
+```javascript
 let myData = {
 			Component: { What: { Name: "Tree View" }, Why: { Purpose: "To present fetched data in a user-friendly way" } },
 			Creator: { Name: "Anastazja Galuza", City: "Copenhagen" }}
