@@ -6,7 +6,7 @@
 
 ## ➤ Table of Contents
 * [➤ Description](#-description)
-* [➤ 0. Installation](#-0-instalation)
+* [➤ 0. Installation](#-0-installation)
 * [➤ 1. Set your data](#-1-set-your-data)
 * [➤ 2. Feed the module with data](#-2-feed-the-module-with-data)
 * [➤ License](#-license)
