@@ -51,13 +51,19 @@ html`
 ## ➤ 3. Customize styling
 The module can be easily customized according to your style needs, just like in the example below:
 <img src="https://user-images.githubusercontent.com/38051431/66751824-3c8bb180-ee90-11e9-8c3a-14945d333042.png">
-In order to implement your own styling, all you need is to define the css variables mentioned in the code below:
+
+In order to implement your own styling, all you need is to define the css variables mentioned in the code below.
+The font is inherited, so you can simply assign it to the module f.ex. through a unique id.
 ```css
 :host{
  --tree-view-summary-background-color-open: #e0c7db;
 --tree-view-summary-background-color-close: #f9d9f3;
 --tree-view-summary-border-bottom: 1px solid grey;
 --tree-view-value-background-color: #f9d9f3;
+}
+#mytreeview {
+font-family: "Dosis", sans-serif;
+color: purple;
 }
 ```
 
