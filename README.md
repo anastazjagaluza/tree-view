@@ -28,8 +28,7 @@ import "tree-view";
 Depending on whether you need to present a small piece of data or your whole database, you start with either fetching the data from the outside source or writing it in the json format. Below you can see, how I arranged the mock-up data, presented in the demo.
 
 ```javascript
-let myData = {Component: { What: { Name: "Tree View" }, Why: { Purpose: "To present fetched data in a user-friendly way" } },
-Creator: { Name: "Anastazja Galuza", City: "Copenhagen" }}
+let myData = {Component: { What: { Name: "Tree View" }, Why: { Purpose: "To present fetched data in a user-friendly way" } },Creator: { Name: "Anastazja Galuza", City: "Copenhagen" }}
 ```
 ## ➤ 2. Feed the module with data
 After importing the component, you can freely use it as an HTML tag. Feed it with data using <b>data</b> as a property or attribute, depending on whether you write simple HTML and JS script or you prefer to use LitHTML library.
