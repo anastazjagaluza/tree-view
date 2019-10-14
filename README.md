@@ -1,2 +1,2 @@
 Tree-view is a web component allowing to present json data in a user-friendly way. This component uses LitHTML and LitELement. You can both use the tree-view component as a new class importing it from the file, as well as the HTML tag <tree-view>. The component has two properties: data and headline. You can use them to customize the component and to feed it with your own data.
-You can get it as an npm package by typing npm install detailed-tree-view in your command line. 
+  You can get it as an npm package by typing<b> npm install detailed-tree-view </b>in your command line. 
