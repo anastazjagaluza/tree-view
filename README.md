@@ -1,7 +1,7 @@
 <h1 align="center">Detailed tree-view</h1>
-<br/>
-<a align="center" href="https://www.npmjs.com/package/detailed-tree-view"><img src="https://www.bleepstatic.com/content/posts/2018/07/12/npm.png" height="20"/></a>
-<br/>
+<p align="center">
+<a href="https://www.npmjs.com/package/detailed-tree-view"><img src="https://i.pinimg.com/originals/0d/59/22/0d5922d05bf2866c850a470f3ee84c0b.png" height="30"/></a>
+</p>
 * Simple API that can return a user-friendly tree view for given data
 * Works very well with JSON
 * Can present even complex, nested data
