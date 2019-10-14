@@ -29,7 +29,7 @@ npm install detailed-tree-view
 ```
 ...and import it afterwards
 ```javascript
-import "tree-view";
+import "detailed-tree-view";
 ```
 ## ➤ 1. Set your data
 
@@ -43,14 +43,14 @@ After importing the component, you can freely use it as an HTML tag. Feed it wit
 
 <b>Vanila JS</b>:
 ```javascript
-const treeView = document.getElementById("tree-view");
+const treeView = document.getElementById("mytreeview");
 treeView.data = myData;
 ```
 <b>Using LitHTML & LitElement Library</b>:
 ```javascript
 render(){
 html`
-<tree-view data="${myData}"></tree-view>
+<detailed-tree-view id="mytreeview" data="${myData}"></detailed-tree-view>
 `}
 
 ```
